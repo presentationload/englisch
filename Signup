@@ -1,0 +1,125 @@
+[{veparse}][row][col size="12" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<div class="row" id="signupModalPage">    
+
+<!-- Bannerbilder -->
+<div style="text-align: center;" id="desktopHeader"><img src="[{$oViewConf->getImageUrl()}]signup/signup-en.jpg" style="width: 100%;">
+</div>
+<div style="text-align: center;" id="mobilHeader"><img src="[{$oViewConf->getImageUrl()}]signup/signup-en-mobile.jpg" style="width: 100%;">
+</div>
+
+<!-- Formular -->          
+     <div class="modal-body" id="signup_body_start">
+               <div class="row">
+                            <div class="col-xs-12">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                <div style="text-align: center;">
+                                    
+                                        <div class="form-group">
+                                            <input type="hidden" id="newsletterSubscribeOn" name="subscribeStatus" value="1">
+                                            [{$oViewConf->getHiddenSid()}]
+                                            <input type="hidden" name="fnc" value="send">
+                                            <input type="hidden" name="cl" value="newsletter">
+                                            <div class="help-block with-errors"></div>
+                                            <div class="input-group">
+                                                <input id="newsletterUserName" style="height: 50px;" type="email" class="form-control" required="" value="" placeholder="Your email address" name="editval[oxuser__oxusername]" data-error="[{oxmultilang ident='EXCEPTION_INPUT_NOTALLFIELDS_VALIDEMAIL'}]">
+                                                <div class="input-group-btn">
+                                                    [{*<button onclick="ga('send','event','SignupPopUp','LoginBtn','',1);" class="btn btn-success text-upercase" type="submit">[{oxmultilang ident="DOWNLOAD"}]</button>*}]
+                                                    <button onclick="" class="btn btn-success text-upercase" type="submit">GET FREE ACCESS</button>
+                                                </div>
+                                            </div>
+
+<!-- Disclaimer -->   
+       <div class="cancellation-warning">
+                      <small><br><br><span style="font-size: 18px;"><b><font color="#9c9c94">Yes</font></b></span></small><span style="font-size: 13px;"><font color="#9c9c94">, I would like to receive your tailored newsletter as well&nbsp;</font></span><span style="font-size: 13px;"><font color="#9c9c94">as free templates, offers, exclusive tutorials and presentation tips from your experts. I can unsubscribe any time. <a href="https://www.presentationload.com/en/security-information/" target="_blank">Data Security Policy.</a></font> </span></div>
+<br><br><br>
+
+<!-- Intro Text -->   
+<span style="font-size: 19px;">Learn how to present better with the PresentationLoad newsletter. </span><b style="font-size: 19px;">Download a free file with exclusive PowerPoint slides immediately.</b><br></div><div class="form-group"><span style="font-size: 19px;"><b><br>
+</b></span>
+
+                                               </div>   
+                                            </div>
+                                        </div>
+                                     </form>
+                                </div>
+                            </div>
+
+<!-- Images -->   
+
+<div style="text-align: center;" id="desktopHeader"><img src="[{$oViewConf->getImageUrl()}]signup/signup-benefits-en.jpg" style="width: 900px;">
+</div>
+<div style="text-align: center;" id="mobilHeader"><img src="[{$oViewConf->getImageUrl()}]signup/signup-benefits-mobile-en.jpg" style="width: 100%;">
+</div>
+
+
+<!-- Headline Testimonials -->   
+<div style="text-align: center;"><span style="font-size: 18px;"><b><br><br>More than 76,000 customers already use PresentationLoad to desgin impressive presentations.
+</b><br><br>
+</span>
+</div>
+
+<!-- Logos -->   
+<div style="text-align: center;" id="desktopHeader"><img src="[{$oViewConf->getImageUrl()}]signup/logos-de.png" style="width: 900px;">
+</div>
+<div style="text-align: center;" id="mobilHeader"><img src="[{$oViewConf->getImageUrl()}]signup/logos-mobile-de.png" style="width: 100%;">
+</div>
+
+
+
+<br><br><br><br>
+
+<!-- Testimonial -->   
+<div style="text-align: center;" id="desktopHeader"><img src="[{$oViewConf->getImageUrl()}]signup/testimonials-en.gif" style="width: 900px;">
+</div>
+<div style="text-align: center;" id="mobilHeader"><img src="[{$oViewConf->getImageUrl()}]signup//testimonials-mobile-en.gif" style="width: 100%;">
+</div>
+
+<br><br>
+<!-- Trusted Shops -->   
+
+<div style="text-align: center;" id="mobilHeader"><img src="[{$oViewConf->getImageUrl()}]signup//trusted-shops-mobile-de.png" style="width: 100%;">
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                        </div> 
+
+                </div></div></div>[/text][/col][/row][row][col size="2" offset="0" class="col-xs-12"][text background_color="" background_image="" background_fixed="" fullwidth="" class=""]<style>
+form.newsletter-signup-form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-sm-12.col-xs-12 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.row {
+    margin-left: 0px; 
+    margin-right: 0px; 
+}
+.form-group {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button.btn.btn-success.text-upercase {
+min-height: 50px;
+}
+@media only screen and (max-width: 768px) {
+#desktopHeader {
+    display: none;
+}
+button.btn.btn-success.text-upercase {
+    white-space: normal;
+    max-height: 50px;
+}
+}
+@media only screen and (min-width: 768px) {
+#mobilHeader {
+    display: none;
+}
+}
+</style>[/text][/col][/row][{/veparse}]
